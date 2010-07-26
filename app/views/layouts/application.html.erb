@@ -8,6 +8,30 @@
   </head>
   <body>
     <div id="container">
+      
+      <div id="tabsE">
+  <ul>
+    <li><a href="#" title="Link 1"><span>Link 1</span></a></li>
+    <li><a href="#" title="Link 2"><span>Link 2</span></a></li>
+    <li><a href="#" title="Link 3"><span>Link 3</span></a></li>
+
+    <li><a href="#" title="Longer Link Text"><span>Longer Link Text</span></a></li>
+    <li><a href="#" title="Link 5"><span>Link 5</span></a></li>
+    <li><a href="#" title="Link 6"><span>Link 6</span></a></li>
+	<li><a href="#" title="Link 7"><span>Link 7</span></a></li>
+<div style="float:right;">
+      <span>
+      <%if current_user%>
+        <%= link_to 'Logout', logout_path %>
+      <%else%>
+        <a href="/login" title="Login"><span>Login</span</a></li>
+      <% end %>
+      </span>
+      </div>
+  </ul>
+
+</div>
+
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <%- end -%>

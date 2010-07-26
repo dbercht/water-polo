@@ -13,5 +13,6 @@
     </tr>
   <% end %>
 </table>
-
-<p><%= link_to "New Post", new_post_path %></p>
+<%if current_user %>
+  <p><%= link_to "New Post", new_post_path %></p>
+<%end%>
