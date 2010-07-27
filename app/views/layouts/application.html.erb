@@ -7,19 +7,11 @@
     <%= yield(:head) %>
   </head>
   <body>
-    <div id="container">
-      
-      <div id="tabsE">
-  <ul>
-    <li><a href="#" title="Link 1"><span>Link 1</span></a></li>
-    <li><a href="#" title="Link 2"><span>Link 2</span></a></li>
-    <li><a href="#" title="Link 3"><span>Link 3</span></a></li>
 
-    <li><a href="#" title="Longer Link Text"><span>Longer Link Text</span></a></li>
-    <li><a href="#" title="Link 5"><span>Link 5</span></a></li>
-    <li><a href="#" title="Link 6"><span>Link 6</span></a></li>
-	<li><a href="#" title="Link 7"><span>Link 7</span></a></li>
-<div style="float:right;">
+<div id="wrapper">
+  <div id="header-wrapper">
+  <div id="header">    
+    <div id="logo">
       <span>
       <%if current_user%>
         <%= link_to 'Logout', logout_path %>
@@ -27,11 +19,22 @@
         <a href="/login" title="Login"><span>Login</span</a></li>
       <% end %>
       </span>
-      </div>
-  </ul>
+    </div>
 
-</div>
+    <div id="menu">
+      <ul>
+        <li><a href="<%= root_url %>" title="Link 2"><span>Home</span></a></li>
+        <li><a href="#" title="Link 3"><span>Link 3</span></a></li>
+        <li><a href="#" title="Longer Link Text"><span>Longer Link Text</span></a></li>
+        <li><a href="#" title="Link 5"><span>Link 5</span></a></li>
+        <li><a href="#" title="Link 6"><span>Link 6</span></a></li>
+        <li><a href="#" title="Link 7"><span>Link 7</span></a></li>
+      </ul>
 
+    </div>
+  </div>
+  </div>
+  <div id="page">
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <%- end -%>
@@ -39,8 +42,44 @@
       <%- if show_title? -%>
         <h1><%=h yield(:title) %></h1>
       <%- end -%>
-      
+     <div id="content">
       <%= yield %>
-    </div>
-  </body>
+     </div>
+     <div id="sidebar">
+			<ul>
+				
+				<li>
+					<h2>Practice Times</h2>
+					<p>MonWedFri: 9 - 11 PM</p><p>Sun: 7:30 - 9:30 PM  </p>
+				</li>
+				<li>
+					<h2>Categories</h2>
+					<ul>
+					</ul>
+				</li>
+				<li>
+					<h2>Blogroll</h2>
+					<ul>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+
+
+  </div>
+</div>
+<div id="footer">
+	<p>UMass Water Polo Website was designed by Daniel Bercht, d.bercht@gmail.com 2010
+</div>
+
+</body>
 </html>

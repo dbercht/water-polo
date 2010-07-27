@@ -1,18 +1,17 @@
 <% title "Posts" %>
 
-<table>
-  <tr>
-    <th>Body</th>
-  </tr>
   <% for post in @posts %>
-    <tr>
-      <td><%=h post.body %></td>
-      <td><%= link_to "Show", post %></td>
-      <td><%= link_to "Edit", edit_post_path(post) %></td>
-      <td><%= link_to "Destroy", post, :confirm => 'Are you sure?', :method => :delete %></td>
-    </tr>
+    <div class="post">
+    
+      <h2 class="title"><%=h post.title %></h2>
+      <p class="meta"><span class="author"><a href="#"></a></span> <span class="date"><%=h post.updated_at.strftime("%a %b %d, %Y") %></span>&nbsp;<span class="links"></span></p>
+      <div class="entry"><%=h post.body %></div>
+      <%if current_user %>
+        <a><%= link_to "Edit", edit_post_path(post) %></a>
+        <a><%= link_to "Destroy", post, :confirm => 'Are you sure?', :method => :delete %></a>
+    <%end%>
+    </div>
   <% end %>
-</table>
 <%if current_user %>
   <p><%= link_to "New Post", new_post_path %></p>
 <%end%>
