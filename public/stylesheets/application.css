@@ -18,7 +18,7 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: #FF3000;
+	color: #AA2222;
 }
 
 h1 {
@@ -72,7 +72,7 @@ a:hover {
 
 #logo {
 	float: left;
-	width: 350px;
+	width: 450px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
@@ -87,7 +87,7 @@ a:hover {
 	letter-spacing: -1px;
 	text-transform: lowercase;
 	font-size: 3.8em;
-	color: #FF3000;
+	color: #DDDDDD;
 }
 
 #logo h1 a {

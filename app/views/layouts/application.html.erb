@@ -12,6 +12,7 @@
   <div id="header-wrapper">
   <div id="header">    
     <div id="logo">
+      <h1>UMass Water Polo</h1>
       <span>
       <%if current_user%>
         <%= link_to 'Logout', logout_path %>
@@ -24,11 +25,10 @@
     <div id="menu">
       <ul>
         <li><a href="<%= root_url %>" title="Link 2"><span>Home</span></a></li>
-        <li><a href="#" title="Link 3"><span>Link 3</span></a></li>
-        <li><a href="#" title="Longer Link Text"><span>Longer Link Text</span></a></li>
-        <li><a href="#" title="Link 5"><span>Link 5</span></a></li>
-        <li><a href="#" title="Link 6"><span>Link 6</span></a></li>
-        <li><a href="#" title="Link 7"><span>Link 7</span></a></li>
+        <li><a href="<%= about_url %>" title="Link 3"><span>About</span></a></li>
+        <li><a href="<%= donate_url %>" title="Longer Link Text"><span>Donate</span></a></li>
+        <li><a href="<%= contact_url %>" title="Link 5"><span>Contact Us</span></a></li>
+        <li><a href="<%= pictures_url %>" title="Link 5"><span>Pictures</span></a></li>
       </ul>
 
     </div>
@@ -53,9 +53,9 @@
 					<p>MonWedFri: 9 - 11 PM</p><p>Sun: 7:30 - 9:30 PM  </p>
 				</li>
 				<li>
-					<h2>Categories</h2>
-					<ul>
-					</ul>
+					<h2>Visit the Polo House</h2>
+					<p>Five members of the club are living together
+at 85 S. East St in South Amherst </p> 
 				</li>
 				<li>
 					<h2>Blogroll</h2>
