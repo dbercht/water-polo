@@ -7092,3 +7092,381 @@ Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 20:40:45) [GET]
 Rendering template within layouts/application
 Rendering statics/about
 Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-07-28 20:46:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 20:46:05) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 20:46:07) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#contact (for 127.0.0.1 at 2010-07-28 20:46:08) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 20:46:09) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (19.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:00:48) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 11ms (View: 9, DB: 20) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:00:50) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:01:46) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:01:47) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:02:04) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:02:24) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:02:34) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 78ms (View: 76, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:02:54) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:02:57) [GET]
+  Parameters: {"albumid"=>"5499126737204918305", "action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pictures?albumid=5499126737204918305]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:03:04) [GET]
+  Parameters: {"albumid"=>"5499126737204918305", "action"=>"pictures", "photoid"=>"5499126831436383842", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pictures?albumid=5499126737204918305&photoid=5499126831436383842]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-28 21:03:05) [GET]
+
+ActionController::RoutingError (No route matches "/prev.jpg" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-28 21:03:05) [GET]
+
+ActionController::RoutingError (No route matches "/home.jpg" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-28 21:03:05) [GET]
+
+ActionController::RoutingError (No route matches "/next.jpg" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:08:22) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 88ms (View: 2, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-07-28 21:08:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 16ms (View: 5, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 21:08:28) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:08:30) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#contact (for 127.0.0.1 at 2010-07-28 21:08:33) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/contact
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 21:08:35) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:08:37) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 4ms (View: 2, DB: 2) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#contact (for 127.0.0.1 at 2010-07-28 21:08:39) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/contact
+Completed in 18ms (View: 2, DB: 2) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:08:40) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#contact (for 127.0.0.1 at 2010-07-28 21:08:43) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:08:43) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 21:08:44) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:09:43) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:09:44) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 8ms (View: 6, DB: 1) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:11:36) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:11:38) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:11:48) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#pictures (for 127.0.0.1 at 2010-07-28 21:12:03) [GET]
+  Parameters: {"action"=>"pictures", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/pictures
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pictures]
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-07-28 21:12:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 21:12:21) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:12:23) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:13:03) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 80ms (View: 76, DB: 0) | 200 OK [http://localhost/donate]
