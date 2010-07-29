@@ -51,6 +51,7 @@ a:hover {
 }
 
 #wrapper {
+        width: 1000px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -58,21 +59,23 @@ a:hover {
 /* Header */
 
 #header-wrapper {
+        width: 900px;
 	height: 150px;
+        border-bottom-style:dotted;
 }
 
 #header {
 	overflow: hidden;
-	width: 900px;
 	margin: 0 auto;
 	padding: 30px 0px 0px 0px;
+	//background: url(/images/logo.gif) no-repeat 18px 10px;
 }
 
 /* Logo */
 
-#logo {
+#logo { 
+        width: 500px;
 	float: left;
-	width: 450px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
@@ -83,7 +86,7 @@ a:hover {
 
 #logo h1 {
 	margin-left: 30px;
-	padding: 20px 0px 0px 0px;
+	padding: 20px 20px 0px 0px;
 	letter-spacing: -1px;
 	text-transform: lowercase;
 	font-size: 3.8em;
@@ -159,7 +162,6 @@ a:hover {
 
 #menu {
 	float: right;
-	height: 125px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -179,7 +181,7 @@ a:hover {
 	display: block;
 	height: 24px;
 	margin-right: 2px;
-	padding: 6px 15px 0px 15px;
+	padding: 6px 10px 0px 10px;
 	text-decoration: none;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -190,12 +192,17 @@ a:hover {
 }
 
 #menu a:hover, #menu .current_page_item a {
-	background: url(/images/img06.jpg) repeat-x left top;
+	background: url(/images/hover.gif) repeat-x left top;
+
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        border-radius: 10px;
 	text-shadow: #720F12 -1px 1px 1px;
 	text-decoration: none;
 }
 
-#menu .current_page_item a {
+#menu .current_page_item a:active{
 	text-shadow: #720F12 -1px 1px 1px;
 	background: url(/images/img06.jpg) repeat-x left top;
 }
@@ -207,21 +214,31 @@ a:hover {
 	margin: 0 auto;
 	padding: 0px 0px 0px 0px;
 }
-
 #page-bgtop {
 }
 /* Content */
 
 #content {
 	float: left;
-	width: 600px;
-	padding: 40px 0px 0px 0px;
-	background: #FFFFFF;
+	width: 550px;
+	padding: 10px 0px 0px 0px;
+	background: #000;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
 }
 
 .post {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 10px;
 	padding: 0px 30px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
+	background: #FFFFFF;
 }
 
 .post .title {
@@ -286,11 +303,15 @@ a:hover {
 
 #sidebar {
 	float: right;
-	width: 300px;
+	width: 325px;
 	margin: 0px;
 	padding: 0px 0px 0px 0px;
 	background: #231917;
 	border-bottom: 4px solid #C8181E;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
 }
 
 #sidebar ul {
@@ -327,6 +348,10 @@ a:hover {
 #sidebar li li a {
 	padding: 0px 0px 0px 20px;
 	background: url(/images/img03.gif) no-repeat left 5px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+         border-radius: 20px;
 }
 
 #sidebar h2 {
@@ -339,7 +364,11 @@ a:hover {
 	text-transform: uppercase;
 	letter-spacing: -.5px;
 	font-size: 1em;
-	color: #FFFFFF;
+	color: #FFFFFF;     
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -khtml-border-radius: 20px;
+        border-radius: 20px;
 }
 
 #sidebar p {
