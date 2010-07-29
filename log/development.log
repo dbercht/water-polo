@@ -7533,3 +7533,41 @@ Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 21:32:27) [GET]
 Rendering template within layouts/application
 Rendering statics/donate
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/donate]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-07-28 23:13:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 65ms (View: 58, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 23:14:03) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#about (for 127.0.0.1 at 2010-07-28 23:14:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/about
+Completed in 38ms (View: 32, DB: 0) | 200 OK [http://localhost/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticsController#donate (for 127.0.0.1 at 2010-07-28 23:14:18) [GET]
+  Parameters: {"action"=>"donate", "controller"=>"statics"}
+Rendering template within layouts/application
+Rendering statics/donate
+Completed in 82ms (View: 80, DB: 0) | 200 OK [http://localhost/donate]
