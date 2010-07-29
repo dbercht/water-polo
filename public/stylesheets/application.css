@@ -60,14 +60,15 @@ a:hover {
 
 #header-wrapper {
         width: 900px;
-	height: 150px;
-        border-bottom-style:dotted;
+	height: 110px;
+        border-bottom-style:solid;
+        margin-bottom: 30px;
 }
 
 #header {
 	overflow: hidden;
 	margin: 0 auto;
-	padding: 30px 0px 0px 0px;
+	padding: 30px 0px 10px 0px;
 	//background: url(/images/logo.gif) no-repeat 18px 10px;
 }
 
