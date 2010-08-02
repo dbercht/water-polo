@@ -8,10 +8,11 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #010000 url(/images/img01.jpg) repeat left top;
+	//background: #010000 url(/images/img01.jpg) repeat left top;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #3C3D3F;
+	background: url(/images/blackwhitegrad.gif) repeat-y left top;
 }
 
 h1, h2, h3 {
@@ -70,6 +71,7 @@ a:hover {
 	margin: 0 auto;
 	padding: 30px 0px 10px 0px;
 	//background: url(/images/logo.gif) no-repeat 18px 10px;
+
 }
 
 /* Logo */
@@ -180,26 +182,26 @@ a:hover {
 
 #menu a {
 	display: block;
-	height: 24px;
+	height: 34px;
 	margin-right: 2px;
 	padding: 6px 10px 0px 10px;
 	text-decoration: none;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #722;
 	border: none;
+	text-transform: uppercase;
 }
 
 #menu a:hover, #menu .current_page_item a {
 	background: url(/images/hover.gif) repeat-x left top;
-
+        color:#FFF;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
         -khtml-border-radius: 10px;
-        border-radius: 10px;
-	text-shadow: #720F12 -1px 1px 1px;
+        text-shadow: #720F12 -1px 1px 1px;
 	text-decoration: none;
 }
 
@@ -215,19 +217,23 @@ a:hover {
 	margin: 0 auto;
 	padding: 0px 0px 0px 0px;
 }
+
+
 #page-bgtop {
 }
 /* Content */
 
 #content {
+	//background: url(/images/horgrad.gif) repeat-y;
+	background: #772222;
 	float: left;
 	width: 550px;
 	padding: 10px 0px 0px 0px;
-	background: #000;
         -moz-border-radius: 20px;
         -webkit-border-radius: 20px;
-        -khtml-border-radius: 20px;
-        border-radius: 20px;
+        -khtml-border-radius: 20px;border:2px solid #222;
+        padding: 5px;
+	
 }
 
 .post {
@@ -356,11 +362,13 @@ a:hover {
 }
 
 #sidebar h2 {
+
+	border-bottom: 1px solid #D1D9F0;
 	height: 30px;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 10px 0px;
 	padding: 4px 0px 0px 20px;
 	background: url(/images/img02.jpg) repeat-x left top;
-	text-shadow: #720F12 -1px 1px 1px;
+	text-shadow: #FFFFFF -1px 3px 4px;
 	text-align: left;
 	text-transform: uppercase;
 	letter-spacing: -.5px;
