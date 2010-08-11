@@ -54,19 +54,18 @@ a:hover {
 #wrapper {
         width: 1000px;
 	margin: 0 auto;
-	padding: 0;
 }
 
 /* Header */
 
 #header-wrapper {
-        width: 900px;
 	height: 110px;
         border-bottom-style:solid;
         margin-bottom: 30px;
 }
 
 #header {
+width: 900px;
 	overflow: hidden;
 	margin: 0 auto;
 	padding: 30px 0px 10px 0px;
@@ -198,11 +197,16 @@ a:hover {
 #menu a:hover, #menu .current_page_item a {
 	background: url(/images/hover.gif) repeat-x left top;
         color:#FFF;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -khtml-border-radius: 10px;
-        text-shadow: #720F12 -1px 1px 1px;
+        text-shadow: #777 -3px 1px 3px;
 	text-decoration: none;
+
+	-moz-box-shadow: -3px -2px 10px #A99;
+	-webkit-box-shadow: 3px 3px 4px #A99;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
 
 #menu .current_page_item a:active{
@@ -213,9 +217,7 @@ a:hover {
 /* Page */
 
 #page {
-	width: 900px;
 	margin: 0 auto;
-	padding: 0px 0px 0px 0px;
 }
 
 
@@ -225,26 +227,24 @@ a:hover {
 
 #content {
 	//background: url(/images/horgrad.gif) repeat-y;
-	background: #772222;
+	background: #FFF;
 	float: left;
 	width: 550px;
-	padding: 10px 0px 0px 0px;
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -khtml-border-radius: 20px;border:2px solid #222;
-        padding: 5px;
+	padding: 10px 5px 0px 5px;
 	
+}#content h1{
+        float: right;
+        color: #AAA
+	border-bottom: 1px solid #D1D9F0;
+        margin-bottom: 20px;
+        margin-left:100px;
+        text-shadow: #AAA -3px 2px 9px;
 }
 
 .post {
 	margin-bottom: 20px;
-	margin-left: 5px;
 	margin-right: 10px;
 	padding: 0px 30px;
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -khtml-border-radius: 20px;
-        border-radius: 20px;
 	background: #FFFFFF;
 }
 
@@ -271,6 +271,10 @@ a:hover {
 .post .meta {
 	overflow: hidden;
 	padding-top: 10px;
+}
+.post h2 {
+        margin-top: 20px;
+	border-bottom: 2px solid  #DAA;
 }
 
 .post .links {
@@ -306,20 +310,30 @@ a:hover {
 	color: #FFFFFF;
 }
 
+
+.drop-shadow {
+	-moz-box-shadow: 4px 4px 20px #A99;
+	-webkit-box-shadow: 4px 4px 20px #A99;
+	box-shadow: 4px 4px 20px #A99;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
 /* Sidebar */
 
 #sidebar {
 	float: right;
 	width: 325px;
-	margin: 0px;
+	
+        margin-left:10px;
 	padding: 0px 0px 0px 0px;
 	background: #231917;
 	border-bottom: 4px solid #C8181E;
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -khtml-border-radius: 20px;
         border-radius: 20px;
 }
+
 
 #sidebar ul {
 	margin: 0;
@@ -355,10 +369,6 @@ a:hover {
 #sidebar li li a {
 	padding: 0px 0px 0px 20px;
 	background: url(/images/img03.gif) no-repeat left 5px;
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -khtml-border-radius: 20px;
-         border-radius: 20px;
 }
 
 #sidebar h2 {
@@ -368,16 +378,12 @@ a:hover {
 	margin: 0px 0px 10px 0px;
 	padding: 4px 0px 0px 20px;
 	background: url(/images/img02.jpg) repeat-x left top;
-	text-shadow: #FFFFFF -1px 3px 4px;
+	text-shadow: #AAA -1px 3px 4px;
 	text-align: left;
 	text-transform: uppercase;
 	letter-spacing: -.5px;
 	font-size: 1em;
 	color: #FFFFFF;     
-        -moz-border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -khtml-border-radius: 20px;
-        border-radius: 20px;
 }
 
 #sidebar p {
@@ -422,16 +428,15 @@ a:hover {
 /* Footer */
 
 #footer {
-	width: 900px;
-	height: 50px;
+	height: 20px;
 	margin: 0 auto;
-	padding: 0px 0 15px 0;
+	padding: 10px 0 10px 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 #footer p {
 	margin: 0;
-	padding: 20px 0px 0px 30px;
+	padding: 20px 10px 10px 30px;
 	line-height: normal;
 	font-size: 10px;
 	text-transform: uppercase;

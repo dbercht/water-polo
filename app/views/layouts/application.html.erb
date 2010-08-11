@@ -16,7 +16,7 @@
       <h2>UMass Water Polo</h2>
     </div>
 
-<div id="menu">
+<div id="menu" >
       <ul>
         <li><a href="<%= root_url %>" title="Link 2"><span>Home</span></a></li>
         <li><a href="<%= contact_url %>" title="Link 5"><span>Contact Us</span></a></li>
@@ -33,14 +33,13 @@
       <%- end -%>
       
 
-     <div id="content" >
+     <div id="content" class="drop-shadow">
       <%- if show_title? -%>
-        <h2 style="color: #FFF; 
-	border-bottom: 1px solid #D1D9F0; margin-bottom: 20px; margin-left:100px;text-shadow: #FFFFFF -3px 2px 9px;"><%=h yield(:title) %></h2>
+        <h1><%=h yield(:title) %></h1>
       <%- end -%>
       <%= yield %>
      </div>
-     <div id="sidebar">
+     <div id="sidebar" class="drop-shadow">
 			<ul>
 				
 				<li>
@@ -56,18 +55,6 @@
 					<p>Five members of the club are living together
 at 85 S. East St in South Amherst </p> 
 				</li>
-				<li>
-					<h2>Blogroll</h2>
-					<ul>
-						<li><a href="#">Aliquam libero</a></li>
-						<li><a href="#">Consectetuer adipiscing elit</a></li>
-
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">Proin gravida orci porttitor</a></li>
-					</ul>
-				</li>
 			</ul>
 		</div>
 		<!-- end #sidebar -->
@@ -76,7 +63,7 @@ at 85 S. East St in South Amherst </p>
 
   </div>
 </div>
-<div id="footer">
+<div id="footer" class="drop-shadow" align="center">
       UMass Water Polo Website was designed by Daniel Bercht, d.bercht@gmail.com 2010 | 
       <%if current_user%>
         <%= link_to 'Logout', logout_path %>
