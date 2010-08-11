@@ -233,12 +233,12 @@ width: 900px;
 	padding: 10px 5px 0px 5px;
 	
 }#content h1{
-        float: right;
         color: #AAA
 	border-bottom: 1px solid #D1D9F0;
         margin-bottom: 20px;
-        margin-left:100px;
+        margin-left:400px;
         text-shadow: #AAA -3px 2px 9px;
+        
 }
 
 .post {
