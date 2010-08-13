@@ -13,10 +13,11 @@
 <div id="header-wrapper">
   <div id="header">    
     <div id="logo">
-      <h2>UMass Water Polo</h2>
     </div>
 
 <div id="menu" >
+
+      <%= image_tag 'headerPic.jpg'%>
       <ul>
         <li><a href="<%= root_url %>" title="Link 2"><span>Home</span></a></li>
         <li><a href="<%= contact_url %>" title="Link 5"><span>Contact Us</span></a></li>
@@ -33,7 +34,7 @@
       <%- end -%>
       
 
-     <div id="content" class="drop-shadow">
+     <div id="content">
       <%- if show_title? -%>
         <h1 class="drop-shadow"><%=h yield(:title) %></h1>
       <%- end -%>
