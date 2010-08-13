@@ -241,7 +241,7 @@ width: 900px;
 	float: left;
 	width: 550px;
 	padding: 0px 0px 0px 0px;
-background: url(/images/bground.png);
+        background: url(/images/bground.png);
         
 }
 #content h1{
@@ -342,11 +342,9 @@ background: url(/images/bground.png);
 #sidebar {
 	float: right;
 	width: 325px;
-	
-        margin-right:10px;
-	padding: 0px 0px 0px 0px;
+        margin-right:20px;
+	padding: 1px 0px 0px 0px;
 	background: #1A1A1A;
-	border-bottom: 4px solid #C8181E;
         border-radius: 20px;
 }
 
@@ -358,7 +356,7 @@ background: url(/images/bground.png);
 }
 
 #sidebar li {
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
 	padding: 0;
 }
 
@@ -388,18 +386,18 @@ background: url(/images/bground.png);
 }
 
 #sidebar h2 {
-
+        width: 322px;
 	border-bottom: 1px solid #D1D9F0;
-	height: 30px;
+	height: 25px;
 	margin: 0px 0px 10px 0px;
-	padding: 4px 0px 0px 20px;
-	background: url(/images/img02.jpg) repeat-x left top;
-	text-shadow: #AAA -1px 3px 4px;
-	text-align: left;
+        background: url(/images/bground.png);
+	text-shadow: #777 -1px 3px 4px;
 	text-transform: uppercase;
 	letter-spacing: -.5px;
 	font-size: 1em;
 	color: #FFFFFF;     
+        text-align: right;
+        padding-right: 17px;
 }
 
 #sidebar p {
